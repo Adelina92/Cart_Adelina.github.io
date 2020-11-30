@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Корзина</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<div id="item-wrapper">
+
+  <div class="item" data-price="80" draggable="true" id="hdd">
+    <div class="img-wrapper">    
+    <img draggable="false" src="img/hdd.png">
+    </div>  
+    HDD <br> 80$
+  </div>
+
+<div class="item" data-price="150"  draggable="true" id="sdd">
+  <div class="img-wrapper">
+  <img draggable="false" src="img/sdd.png">
+  </div>
+    SDD <br> 150$
+  </div>
+
+<div class="item" data-price="8"  draggable="true" id="usb">
+  <div class="img-wrapper">
+  <img draggable="false" src="img/usb.png">
+  </div>
+    USB Drive <br> 8$
+  </div>
+
+</div>
+
+<div id="cart-wrapper">
+  <div id="cart"></div>
+  <div id="cart-footer">
+    <button id="clear-button">Clear Cart</button>
+    <div id="total">Total: <span id="total-price">0</span>$</div>
+    </div>
+  </div>
+
+</body>
+</html>
